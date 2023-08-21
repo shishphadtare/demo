@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Aayu-removebg.png" alt="Aayu Care">
+        </div>
+        <div>
+        <h1>Aayu Care Clinic</h1>
+        <div class="doctor"><i class="fa-solid fa-user-doctor"></i>
+        Reena Naikwadi</div>
+    </div>
+        
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        
+        
+        <a class="fa-solid fa-phone"></a>8483092803
+    
+    </nav>
+
+
+<div class="container">
+    <div class="main-content">
+        <div class="appointment-form">
+            <h2>Book an Appointment</h2>
+            <form action="submit-appointment.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <footer>
+        <p>&copy; 2023 Clinic Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
