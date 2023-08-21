@@ -1,0 +1,184 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #f4f4f4, #d5e5db);
+}
+
+
+header {
+    background: linear-gradient(to bottom, wheat, #e0c97a); /* Gradient from wheat to a pale yellow */
+    color: darkblue;
+    padding: 0.625rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+    
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    opacity: 0.2; /* Adjust the opacity as needed */
+    z-index: -1;
+}
+
+.logo img {
+    max-height: 3.75rem; /* Adjust the logo height as needed */
+    margin-right: 0.625rem;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    
+}
+
+nav {
+    background: linear-gradient(to bottom, darkblue, #001F3F); /* Gradient from darkblue to a darker blue */
+    color: white;
+    padding: 0.625rem;
+    text-align: center;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.95rem;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.main-content {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    box-shadow: 0 0.125rem 0.188rem rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    
+    text-align: center; background: linear-gradient(to bottom, darkblue, #001F3F); /* Gradient from darkblue to a darker blue */
+    color: white;
+    padding: 0.652rem;
+    text-align: center;
+}
+ .doctor {
+    color: darkgreen;
+    align-items: center;
+ }
+
+
+
+.conditions-section {
+    background: linear-gradient(to bottom, #f9f9f9, #d5e5db); /* Gradient from light gray to pale green */
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.conditions-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.condition-list {
+    list-style: none;
+    padding: 0;
+}
+
+.condition-list li {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+}
+
+
+.contact {
+    margin-left: 3.125rem;
+    size: 1rem;
+}
+.appoint {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+     margin-left: 6.25rem;
+}
+
+
+/* Style for the appointment form */
+.appointment-form {
+    background-color: #f9f9f9;
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    box-shadow: 0 0.125rem 0.313rem rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.188rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.appointment-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.188rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appointment-form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Style for the "Book Appointment" link */
+.book-appointment {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-left: 42rem;
+}
+
+.book-appointment:hover {
+    background-color: #45a049;
+}
+
